@@ -22,6 +22,11 @@
             background-color: red;
             font-size: 2em;
         }
+        #lucky-number {
+            display: inline-block;
+            padding: 10px;
+            background-color: lightpink;
+        }
     </style>
 </head>
 <body>
@@ -44,6 +49,30 @@
         <h2>Sekcja</h2>
         <div id="sekcja2">
             <button id="danger-btn">Nie klikaj mnie!</button>
+        </div>
+    </section>
+    <section>
+        <h2>Sekcja</h2>
+        <div id="sekcja3">
+            <p id="know-text"></p>
+            <button id="know-btn">Daj się poznać!</button>
+        </div>
+    </section>
+    <section>
+        <h2>Sekcja</h2>
+        <div>
+            <p>Aktualnie szczęśliwa liczba: <span id="lucky-number" onmouseover="luckyNumber()"></span> </p>
+        </div>
+    </section>
+    <section>
+        <h2>Sekcja</h2>
+            <form id="flowers-form">
+                <label for="flower-number">Podaj liczbę</label>
+                <input id="flower-number" name="flower-number" type="number" min="0" max="30" />
+                <button type="submit">!</button>
+            </form>
+        <div id="flowers">
+
         </div>
     </section>
 </main>
