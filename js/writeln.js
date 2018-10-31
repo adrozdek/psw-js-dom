@@ -1,0 +1,1 @@
+document.getElementById('flowers-form-2').addEventListener('submit', function(ev) { return getFlowers(ev, true); });
