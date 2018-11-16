@@ -71,6 +71,12 @@ h2 {
     display: block;
 }
 
+#contactForm {
+    width: 30%;
+    position: relative;
+    left: 35%;
+}
+
 #contactForm label {
     width: 100pt;
     display: block;
@@ -79,6 +85,20 @@ h2 {
 #contactForm input {
     margin: 5pt;
     width: 200pt;
+}
+
+.contactFormButton {
+    padding: 1pt;
+    width: 100pt;
+}
+
+.help {
+    display: none;
+    background: #ffffff;
+    position: absolute;
+    border: solid 1px;
+    padding: 2pt;
+    width: 100pt;
 }
 
 footer {

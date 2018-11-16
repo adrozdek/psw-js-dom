@@ -106,16 +106,19 @@
     <section>
         <h2>Chcesz zostać piratem? Wypełnij ankietę!</h2>
         <form id="contactForm">
+            <label for="name">Imię</label>
+            <input class="contactFormInput" name="name" type="text" id="contactFormName"/><div class="help">Wpisz swoje imię</div>
+            
+            <label>Email</label>
+            <input class="contactFormInput" name="email" type="email" id="contactFormEmail"/><div class="help">Wpisz swój adres email</div>
+            
+            <label>Twój sekret</label>
+            <input class="contactFormInput" name="secret" type="text" id="contactFormSecret"/><div class="help">Wpisz swój sekret</div>
+            
             <div>
-                <label>Imię  <input name="name" type="text"/></label>
+                <button type="button" class="contactFormButton" id="contactFormSubmit">Chcę!</button>
+                <button type="button" class="contactFormButton" id="contactFormReset">Jeszcze raz...</button>
             </div>
-            <div>
-                <label>Email <input name="email" type="email"/></label>
-            </div>
-            <div>
-                <label>Twój sekret <input id="secretInput" name="secret" type="text"/></label>
-            </div>
-            <button type="submit">Chcę!</button>
         </form>
 
     </section>

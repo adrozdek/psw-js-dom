@@ -20,5 +20,5 @@ function showInfo(event) {
 }
 
 document.getElementById("contactForm").reset();
-document.getElementById("secretInput").addEventListener("keypress", whichKeyWasPressed);
+document.getElementById("contactFormSecret").addEventListener("keypress", whichKeyWasPressed);
 document.getElementById("infoButton").addEventListener("click", showInfo);
