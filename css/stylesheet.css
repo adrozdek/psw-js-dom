@@ -1,0 +1,72 @@
+header {
+    text-align: center;
+}
+
+section, footer {
+    width: 80%;
+    margin-left: 10%;
+}
+
+h2 {
+    padding-left: 20pt;
+    border: dashed 1px;
+    border-color: #006666;
+}
+
+#flexcontainerOptions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.flexitemOptions {
+    display: flex;
+    flex-direction: column;
+}
+
+.viewOptions {
+    width: 200pt;
+}
+
+.viewOptionsHeader {
+    text-align: center;
+}
+
+#flexcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.flexitem {
+    display: flex;
+    flex-direction: column;
+}
+
+.fleximage {
+    width: 250pt;
+    margin-top: 20pt;
+}
+
+.flexbutton {
+    margin: 2pt;
+    margin-bottom: 0pt;
+}
+
+.button {
+    margin: 10pt;
+    padding: 5pt;
+    width: 30%;
+    position: relative;
+    left: 35%;
+    margin-bottom: 10pt;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20pt;
+    border: dashed 1px;
+    border-color: #006666;
+}
