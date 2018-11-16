@@ -68,6 +68,17 @@ h2 {
     position: relative;
     left: 35%;
     margin-bottom: 10pt;
+    display: block;
+}
+
+#contactForm label {
+    width: 100pt;
+    display: block;
+}
+
+#contactForm input {
+    margin: 5pt;
+    width: 200pt;
 }
 
 footer {
