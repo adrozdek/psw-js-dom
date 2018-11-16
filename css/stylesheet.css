@@ -47,10 +47,12 @@ h2 {
 
 .fleximage {
     width: 250pt;
+    height: 250pt;
+    object-fit: cover;
     margin-top: 20pt;
 }
 
-.flexbutton {
+.lubieToButton, .nieLubieTegoButton {
     margin: 2pt;
     margin-bottom: 0pt;
 }
