@@ -1,23 +1,27 @@
 function submitContactForm() {
+    "use strict";
     if(!document.getElementById("contactForm").checkValidity()
         || !document.getElementById("contactFormName").value.length 
         || !document.getElementById("contactFormEmail").value.length) {
-        alert("Źle wypełniony formularz!");
+        window.alert("Źle wypełniony formularz!");
     } else {
-        alert("Od dzisiaj będziemy wysyłać Ci spam na maila! Arr!");
+        window.alert("Od dzisiaj będziemy wysyłać Ci spam na maila! Arr!");
         document.getElementById("contactForm").submit();
     }
 }
 
 function resetContactForm() {
+    "use strict";
     document.getElementById("contactForm").reset();
 }
 
 function showHelp(event) {
+    "use strict";
     event.target.nextSibling.style.display = "block";
 }
 
 function hideHelp(event) {
+    "use strict";
     event.target.nextSibling.style.display = "none";
 }
 
@@ -25,7 +29,9 @@ document.getElementById("contactFormSubmit").addEventListener("click", submitCon
 document.getElementById("contactFormReset").addEventListener("click", resetContactForm);
 
 var classname = document.getElementsByClassName("contactFormInput");
-for (var i = 0; i < classname.length; i++) {
-    classname[i].addEventListener("focus", showHelp);
-    classname[i].addEventListener("blur", hideHelp);
-}
+Array.from(classname).forEach(function(element) {
+    element.addEventListener("focus", showHelp);
+});
+Array.from(classname).forEach(function(element) {
+    element.addEventListener("blur", hideHelp);
+});

@@ -1,4 +1,5 @@
 function changeBackgroundColor(event) {
+    "use strict";
     let color = "";
     switch(event.target.selectedIndex) {
         case 0:
@@ -21,6 +22,7 @@ document.querySelector("[value='whiteBackground']").selected = true;
 document.getElementById("backgroundColorSelect").addEventListener("change", changeBackgroundColor);
 
 function changeTextColor(event) {
+    "use strict";
     let color = "";
     switch(event.target.selectedIndex) {
         case 0:
@@ -43,6 +45,7 @@ document.querySelector("[value='blackText']").selected = true;
 document.getElementById("textColorSelect").addEventListener("change", changeTextColor);
 
 function changeFont(event) {
+    "use strict";
     let fontname = "";
     switch(event.target.selectedIndex) {
         case 0:

@@ -1,10 +1,12 @@
 function whichKeyWasPressed(event) {
+    "use strict";
     let key = event.keyCode || event.which;
-    alert("Prawdziwy pirat pilnuje swoich sekretów, szczurze lądowy! Wpisana litera: " + String.fromCharCode(key));
+    window.alert("Prawdziwy pirat pilnuje swoich sekretów, szczurze lądowy! Wpisana litera: " + String.fromCharCode(key));
 }
 
 function showInfo(event) {
-    var info = "";
+    "use strict";
+    let info = "";
     info += ("Pozycja myszki w odniesieniu do aktualnego okna: " + event.clientX + "x" + event.clientY + "; ");
     info += ("Pozycja myszki w odniesieniu do ekranu " + event.screenX + "x" + event.screenY + "; ");
     if(event.altKey) {
@@ -16,7 +18,7 @@ function showInfo(event) {
     if(event.shiftKey) {
         info += "Wciśnięto klawisz SHIFT; ";
     }
-    alert(info);
+    window.alert(info);
 }
 
 document.getElementById("contactForm").reset();
