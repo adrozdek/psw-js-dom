@@ -1,0 +1,109 @@
+body {
+    font-family: Times New Roman, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+section, footer {
+    width: 80%;
+    margin-left: 10%;
+}
+
+h2 {
+    padding-left: 20pt;
+    border: dashed 1px;
+    border-color: #006666;
+}
+
+#flexcontainerOptions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.flexitemOptions {
+    display: flex;
+    flex-direction: column;
+}
+
+.viewOptions {
+    width: 200pt;
+}
+
+.viewOptionsHeader {
+    text-align: center;
+}
+
+#flexcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.flexitem {
+    display: flex;
+    flex-direction: column;
+}
+
+.fleximage {
+    width: 250pt;
+    height: 250pt;
+    object-fit: cover;
+    margin-top: 20pt;
+}
+
+.lubieToButton, .nieLubieTegoButton {
+    margin: 2pt;
+    margin-bottom: 0pt;
+}
+
+.button {
+    margin: 10pt;
+    padding: 5pt;
+    width: 30%;
+    position: relative;
+    left: 35%;
+    margin-bottom: 10pt;
+    display: block;
+}
+
+#contactForm {
+    width: 30%;
+    position: relative;
+    left: 35%;
+}
+
+#contactForm label {
+    width: 100pt;
+    display: block;
+}
+
+#contactForm input {
+    margin: 5pt;
+    width: 200pt;
+}
+
+.contactFormButton {
+    padding: 1pt;
+    width: 100pt;
+}
+
+.help {
+    display: none;
+    background: #ffffff;
+    position: absolute;
+    border: solid 1px;
+    padding: 2pt;
+    width: 100pt;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20pt;
+    border: dashed 1px;
+    border-color: #006666;
+}
